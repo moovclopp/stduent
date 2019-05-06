@@ -28,7 +28,7 @@ public class addServlet extends javax.servlet.http.HttpServlet {
         students.setAvgscore(request.getParameter("avgscore"));
         student.put(request.getParameter("id"), students);
 
-        String key = "Student";
+        String key = "Student1";
         byte[] bs = jedis.get(key.getBytes());
         Map<String,Students> map =(Map<String, Students>) SerializationUtil.deserialize(bs);
         if(map==null){
