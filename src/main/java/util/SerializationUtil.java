@@ -20,6 +20,7 @@ public class SerializationUtil {
         return null;
     }
 
+    //test
     public static Object deserialize(byte[] bytes) {
         ByteArrayInputStream bais = null;
         try {
