@@ -12,7 +12,7 @@ public class Students implements Serializable{
     private String name;
     private String birthday;
     private String description;
-    private String avgscore;
+    private String avgscore2019;
 
     public Students(){
 
